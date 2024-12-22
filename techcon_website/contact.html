@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contattaci - TechCon 2024</title>
+</head>
+<body>
+  <header>
+    <h1>Contattaci</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Informazioni</a></li>
+        <li><a href="schedule.html">Pianificazione</a></li>
+        <li><a href="register.html">Registrazione</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h2>Dettagli di contatto</h2>
+    <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+    <p>Seguici sui social media:</p>
+    <ul>
+      <li><a href="https://facebook.com/TechCon2024" target="_blank">Facebook</a></li>
+      <li><a href="https://twitter.com/TechCon2024" target="_blank">Twitter</a></li>
+      <li><a href="https://instagram.com/TechCon2024" target="_blank">Instagram</a></li>
+    </ul>
+
+    <h3>Posizione</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345097973!2d144.9537353153167!3d-37.81627927975148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577663bcd8b1a63!2sTechCon+2024!5e0!3m2!1sen!2sau!4v1615218057351!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <h3>Contattaci</h3>
+    <form action="/submit_contact" method="post">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Messaggio:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <br>
+      <button type="submit">Invia messaggio</button>
+    </form>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 TechCon. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
